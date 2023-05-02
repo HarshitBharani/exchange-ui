@@ -1,0 +1,20 @@
+:root {
+  --body-background: #040406;
+  --nav-background: #0b0819;
+  --listitem-color: #5a5a5a;
+  --listitem-hovercolor: #627eea;
+  --connectwallet-background: linear-gradient(
+    94.37deg,
+    #3387d5 -5.94%,
+    #7a06c9 115.34%
+  );
+  --connectwallet-color: #ffffff;
+  --form-backgroundcolor: #0b0819;
+}
+body {
+  font-family: "poppins";
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  /* background-color: var(--body-background); */
+}

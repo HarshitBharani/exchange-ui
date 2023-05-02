@@ -1,0 +1,43 @@
+@import url("../../index.css");
+
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  background-color: var(--nav-background);
+  padding: 20px 10rem 20px 2rem;
+}
+.logo {
+  margin-right: auto;
+}
+
+.logo > img {
+  width: 120px;
+}
+.listElement {
+  margin-left: 30px;
+
+  color: var(--listitem-color);
+}
+.listElement:hover {
+  color: var(--listitem-hovercolor);
+  border-bottom: 5px solid var(--listitem-hovercolor);
+}
+.navButton {
+  display: block;
+  margin-left: auto;
+}
+.navButton > button {
+  border: none;
+  font-family: "barlow";
+  width: 140px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  height: 40px;
+  color: var(--connectwallet-color);
+  border-radius: 20px;
+  background: var(--connectwallet-background);
+}
